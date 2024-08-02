@@ -11,8 +11,15 @@ $(function () {
     autoplaySpeed: 0,
     speed: 2000,
     cssEase: 'linear',
-    rtl: true
+    rtl: true,
+    responsive: [{
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+      }
+    }]
   });
+  
   $('.ticker_img').slick({
     pauseOnFocus: false,
     pauseOnHover: false,
@@ -22,8 +29,15 @@ $(function () {
     autoplay: true,
     autoplaySpeed: 0,
     speed: 2000,
-    cssEase:'linear'
+    cssEase: 'linear',
+    responsive: [{
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+      }
+    }]
   });
+
   $('.ticker_logo2').slick({
     pauseOnFocus: false,
     pauseOnHover: false,
@@ -34,7 +48,13 @@ $(function () {
     autoplaySpeed: 0,
     speed: 1500,
     cssEase: 'linear',
-    rtl: true
+    rtl: true,
+    responsive: [{
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+      }
+    }]
   });
 
   //company tabs

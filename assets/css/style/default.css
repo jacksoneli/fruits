@@ -456,6 +456,3 @@ html {
    -ms-touch-action: pan-x pan-y;
 }
 
-
-/*창크기 줄여도 가로스크롤 없애기*/
-body{overflow-x:hidden;}
