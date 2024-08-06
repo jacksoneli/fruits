@@ -330,7 +330,7 @@ input[type="search"]::placeholder {}
 /*********************** 기능 *************************/
 /*단어 keep*/
 * {
-   word-break: normal;
+   word-break: keep-all;
 }
 
 th,

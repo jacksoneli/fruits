@@ -15,7 +15,7 @@ header .gnb_wrap a{font-size: 22px; margin: 0 45px;}
 
 .product{}
 .title{padding-top: 150px; text-align: center; font-size: 50px; letter-spacing: 4px;}
-.sub{margin-top: 24px; text-align: center; font-size: 26px; color: #444; letter-spacing: 2.08px; word-break: keep-all;}
+.sub{margin-top: 24px; text-align: center; font-size: 26px; color: #444; letter-spacing: 2.08px;}
 .product .bnr_wrap{margin-top: 60px;}
 .product .bnr_wrap .logo_line{position: relative; height: 23px;}
 .product .bnr_wrap .logo_line img{margin: 0 140px;}
@@ -27,7 +27,12 @@ header .gnb_wrap a{font-size: 22px; margin: 0 45px;}
 
 .product .product_wrap{margin: 100px auto 0; max-width: 1920px;}
 .product .product_wrap article{display: flex;}
-.product .product_wrap article .text_box{width: 50%;}
+.product .product_wrap article .text_box{width: 50%; padding-left: 100px; display: flex; align-items: center;}
+.product .product_wrap article .text_box .inner{}
+.product .product_wrap article .text_box .tit{font-size: 70px; font-weight: 100; letter-spacing: 5.6px;}
+.product .product_wrap article .text_box p{margin-top: 24px; font-size: 30px; font-weight: 100; letter-spacing: 2.4px; color: #444;}
+.product .product_wrap article .text_box .boxes{margin-top: 32px; display: flex; gap: 8px;}
+.product .product_wrap article .text_box .boxes span{padding: 12px 32px; font-size: 24px; color: #8f8f8f; border: 1px solid #8F8F8F; border-radius: 24px;}
 .product .product_wrap article .img_box{width: 50%; background: url(../../images/product01_hover.png) no-repeat 50% 50% / 100%;}
 .product .product_wrap article.product_02 .img_box{background: url(../../images/product02_hover.png) no-repeat 50% 50% / 100%;}
 .product .product_wrap article.product_03 .img_box{background: url(../../images/product03_hover.png) no-repeat 50% 50% / 100%;}
@@ -125,10 +130,18 @@ footer .cont article p{color: #aaa;}
     
   .product{}
   .sub{margin-top: 24px; font-size: 14px; letter-spacing: 1px; padding: 0 20px;}
-  .product .bnr_wrap{margin-top: 80px;}
-  .product .bnr_wrap .img_line{margin: 40px 0;}
+  .product .bnr_wrap{margin-top: 100px;}
+  .product .bnr_wrap .img_line{margin: 60px 0;}
   .product .bnr_wrap .img_line .ticker_img p{font-size: 26px;}
-  
+
+  .product .product_wrap{margin-top: 160px;}
+  .product .product_wrap article .text_box{padding: 0 10px; text-align: center;}
+  .product .product_wrap article .text_box .inner{}
+  .product .product_wrap article .text_box .tit{font-size: 18px; letter-spacing: 1px;}
+  .product .product_wrap article .text_box p{margin-top: 10px; font-size: 12px; letter-spacing: normal;}
+  .product .product_wrap article .text_box p br{display: none;}
+  .product .product_wrap article .text_box .boxes{margin-top: 10px; gap: 4px; justify-content: center;}
+  .product .product_wrap article .text_box .boxes span{padding: 4px 8px; font-size: 11px;}
   .product .product_wrap article .img_box img:hover{opacity: 1;}
   
   .contact_01{height: auto; display: block; padding: 160px 0;}
@@ -168,7 +181,7 @@ footer .cont article p{color: #aaa;}
   .protocol .limit_wrap .two_boxes article::after{content: ''; display: block; padding-bottom: 127.06%;}
   .protocol .limit_wrap .two_boxes article .cont{display: none;}
   .protocol .limit_wrap .two_boxes article .cover{transition: 0; opacity: 1; padding: 0 20px;}
-  .protocol .limit_wrap .two_boxes article .cover p{font-size: 18px; word-break: keep-all;}
+  .protocol .limit_wrap .two_boxes article .cover p{font-size: 18px;}
 
   .contact_02{margin-top: 100px; text-align: center;}
   .contact_02 .limit_wrap .tit{font-size: 40px;}
