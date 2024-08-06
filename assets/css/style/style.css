@@ -153,8 +153,8 @@ footer .cont article p{color: #aaa;}
   .company .tab_wrap{margin-top: 40px;}
   .company .tab_wrap .taps button{width: 29%; height: 60px; font-size: 18px;}
   .company .tab_wrap .taps button.on{background: #EAE9E7; border: 0;}
-  .company .tab_wrap .cont_wrap{height: 300px; padding: 0 20px;}
-  .company .tab_wrap .cont_wrap article{font-size: 4.8vw;}
+  .company .tab_wrap .cont_wrap{height: 350px; padding: 0 20px;}
+  .company .tab_wrap .cont_wrap article{font-size: 20px; line-height: 1.4;}
   .company .history .box{width: auto; text-align: center;}
   .company .history .box .tit{font-size: 30px;}
   .company .history .box ul{font-size: 17px;}
